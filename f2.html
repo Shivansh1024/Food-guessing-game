@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food guess</title>
+</head>
+<body >
+   
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+            padding: 0;
+          
+        
+        }
+        body{
+            
+            background-image:url(img/wp3284834.gif);
+            background-size: cover;
+        }
+        #timer {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;
+}
+
+#time,
+#moves {
+    display: inline;
+}
+        
+    </style>
+    
+
+    <div class="results">
+        <div id="food_result" class="result" >
+            <!-- <p style="color: white;">All the best</p> -->
+        </div>
+    </div> 
+    <div class="buttons">
+        <button id="food_btn" style="position: absolute;top:500px;right: 50%;">Click here for picture</button>
+    </div>
+    
+    <form action="">
+        <p style="position: absolute;top: 400px;right:26%;font-size: 150%;color: white;"><input id="textelement"type="text" value="Type your answer here " style="width: 400px;height: 50px;position: relative;right: 53%;color: darkslategrey;text-align: center;top:155px;border: 1px solid black;"></p>
+    </form>
+    <div id="timer" style="color: white;position: absolute;top: 270px;font-size: 350%;right:9%">Time Left:</div>
+    <p  id="time" style="color: WHITE;position: absolute;top:350px;font-size: 350%;right: 18%;">90 </p>
+    <P style="position: absolute;top:350px;right:12%;color: white;font-size: 350%;">Sec</P>
+    
+    <script src="g.js"></script>
+</body>
+</html>
